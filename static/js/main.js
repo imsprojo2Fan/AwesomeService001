@@ -94,6 +94,17 @@
                 $(this).children('ul').slideToggle();
             });
         }
+        var i=0;
+        $('#menuBtn').on('click',function () {
+            ++i;
+            if(i%2==1){
+                $('#close').show();
+                $('#open').hide();
+            }else{
+                $('#open').show();
+                $('#close').hide();
+            }
+        });
 
         //Hero area slider with animation{owl Carousel}
         var HeroSlide = $('.slider-wrapper');

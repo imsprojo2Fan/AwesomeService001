@@ -1515,7 +1515,17 @@ a.simple-hover1 i {
     line-height: 32px;
     right: 4px;
     top: 6px;
-    width: 32px; } }
+    width: 32px; }
+  .carousel-indicators{
+    display: none;
+  }
+  .carousel-control{
+    display: none;
+  }
+  .slideItem .slide-content .b-btn{
+    margin-top: 5px;
+  }
+}
 .faq-page-section dl.accordion dt.active:after {
   content: "\f074"; }
 .faq-page-section dl.accordion dd {

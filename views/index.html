@@ -6,7 +6,7 @@
     <!-- Meta Keys -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
 
     <!-- Title -->
     <title>HOME</title>
@@ -94,9 +94,16 @@
                         <div class="col-md-10 col-sm-9">
                             <nav class="main-menu">
                                 <div class="navbar-header">
-                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                                    <button id="menuBtn" type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
                                         <span class="sr-only"></span>
-                                        <i class="icofont icofont-navigation-menu"></i>
+                                        {{/*<i class="icofont icofont-navigation-menu"></i>*/}}
+                                        <span id="open">
+                                            <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+                                        </span>
+                                        <span style="display: none" id="close">
+                                            <i class="fa fa-times fa-2x" aria-hidden="true"></i>
+                                        </span>
+
                                     </button>
                                 </div>
                                 <!-- /.Navbar Header -->
