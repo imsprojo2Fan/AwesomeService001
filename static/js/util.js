@@ -88,7 +88,12 @@ function redirect(str) {
             300);
         return;
     }
-    var targetOffset = $(target).offset().top - 115;
+    var targetOffset = $(target).offset().top;
+    if(str=="contact"){
+        targetOffset = targetOffset - 149;
+    }else{
+        targetOffset = targetOffset - 115;
+    }
     $('html,body').animate({
             scrollTop: targetOffset
         },

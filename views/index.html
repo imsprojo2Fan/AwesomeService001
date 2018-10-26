@@ -18,6 +18,14 @@
     <!-- <link href="https://cdn.bootcss.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
 
+    <!--Sweet alert-->
+    {{/*<script src="https://cdn.bootcss.com/limonte-sweetalert2/7.28.5/sweetalert2.all.js"></script>
+    <link href="https://cdn.bootcss.com/limonte-sweetalert2/7.28.5/sweetalert2.css" rel="stylesheet">*/}}
+    <link href="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
+    {{/*<link href="../static/plugins/sweet-alert/sweetalert.css">
+    <script src="../static/plugins/sweet-alert/sweetalert.js"></script>*/}}
+
     <!-- <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> -->
     <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -40,6 +48,22 @@
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <style>
+        #support a{
+            color:#ffffff;
+        }
+        #support a:hover{
+            color:#3694ea;
+        }
+        #orderWrap a{
+            cursor: pointer;
+            color: #555555;
+        }
+        #orderWrap a:hover{
+            color: #eeac00;
+        }
+    </style>
 </head>
 <body>
 
@@ -106,11 +130,12 @@
 
                                 <nav id="navbar" class="navbar-collapse collapse">
                                     <ul class="nav navbar-nav">
-                                        <li><a href="#">主页</a></li>
-                                        <li><a href="#">关于我们</a></li>
-                                        <li><a href="#">所有服务</a></li>
-                                        <li><a href="#">最新推荐</a></li>
-                                        <li><a href="#">联系我们</a></li>
+                                        <li><a href="javascript:redirect('')">主页</a></li>
+                                        <li><a href="javascript:redirect('about')">关于我们</a></li>
+                                        <li><a href="javascript:redirect('service')">所有服务</a></li>
+                                        <li><a href="javascript:redirect('team')">核心团队</a></li>
+                                        <li><a href="javascript:redirect('latest')">最新推荐</a></li>
+                                        <li><a href="javascript:redirect('contact')">联系我们</a></li>
                                     </ul>
                                 </nav>
                                 <!-- /.End Of Nav Bar -->
@@ -198,17 +223,26 @@
     </header>
     <!-- /.End Of Header Area -->
 
-    <!-- Services Area -->
+    <!-- About US -->
     <section class="services-area sp100 animated a_f">
         <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="section-title">
+                        <h2 id="about">关于我们</h2>
+                        <div style="height: 3px;width: 50px;background: #333333;margin: 0 auto;"></div>
+                    </div>
+                </div>
+            </div>
             <div class="row">
                 <div class="col-md-4 col-md-offset-0 col-sm-offset-1 col-sm-10">
                     <div class="sin-service text-center">
                         <span class="service-hover-bar"></span>
                         <div class="service-icon">
-                            <i class="btheme-desktop"></i>
+                            {{/*<i class="btheme-desktop"></i>*/}}
+                                <i style="margin-top: -2px;" class="fa fa-cutlery" aria-hidden="true"></i>
                         </div>
-                        <h4>Web Development</h4>
+                        <h4>甄选原生态材料</h4>
                         <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
                     </div>
                 </div>
@@ -219,7 +253,7 @@
                         <div class="service-icon">
                             <i class="btheme-drawing"></i>
                         </div>
-                        <h4>Graphic Design</h4>
+                        <h4>量身定制精选套餐</h4>
                         <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
                     </div>
                 </div>
@@ -228,9 +262,10 @@
                     <div class="sin-service text-center last">
                         <span class="service-hover-bar"></span>
                         <div class="service-icon">
-                            <i class="btheme-bar-chart"></i>
+                            {{/*<i class="btheme-bar-chart"></i>*/}}
+                            <i style="margin-top: 3px;" class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
                         </div>
-                        <h4>Online Marketing</h4>
+                        <h4>24小时在线服务</h4>
                         <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
                     </div>
                 </div>
@@ -239,7 +274,6 @@
         </div>
     </section>
     <!-- /.End Of Services Area -->
-    <div class="tlinks">Collect from <a href="http://www.cssmoban.com/" >网页模板</a></div>
 
     <!-- ImageText Holder Section -->
     <section class="image-text-holder spb100 animated a_f">
@@ -265,13 +299,13 @@
     </section>
     <!-- /.End Of ImageText Holder Section -->
 
-    <!-- Our Project Section -->
+    <!-- Service -->
     <section class="our-project-section spb100 animated a_f">
         <div class="container">
             <div class="row">
                 <div class="section-title">
-                    <h2>Awesome Project</h2>
-                    <p>Duis autem vel eum iriure dolor in hendrerit in vulputat essemo</p>
+                    <h2 id="service">所有服务</h2>
+                    <div style="height: 3px;width: 50px;background: #333333;margin: 0 auto;"></div>
                 </div>
             </div>
             <div class="row">
@@ -372,29 +406,61 @@
                     <!-- /.End Of Project Wrapper -->
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- /.End Of Our Project Section -->
+            <div id="orderWrap" class="row " style="color: #333333;margin-top: 40px;text-align: center">
+                <a>
+                    <i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
+                </a>
+                <span style="margin-left: 5px;;font-size: 20px;">在线订座</span>
+                <div style="width: 50px;height: 3px;background: #333333bf;margin:12px auto"></div>
+                <div id="orderWrap01" style="border: 1px solid #eeeeee;border-radius:3px;width:100%;margin: 15px auto;padding: 55px 0px;">
+                    <div style="text-align: left;margin-left: 10%;color: #5cb85c">入口<i class="fa fa-sign-in" aria-hidden="true"></i></div>
+                    <div style="text-align: left;margin-left: 10%;color: #ff3828">出口<i class="fa fa-sign-out" aria-hidden="true"></i></div>
+                    <button class="btn btn-default">01</button>
+                        <button class="btn btn-default">02</button>
+                        <button class="btn btn-default">03</button>
+                        <button class="btn btn-default">04</button>
+                        <button class="btn btn-default">05</button>
+                        <button class="btn btn-default">06</button>
+                        <button class="btn btn-default">07</button>
+                        <button class="btn btn-default">08</button>
+                        <button class="btn btn-default">09</button>
+                        <button class="btn btn-default">10</button>
+                        <button class="btn btn-default">11</button>
+                        <button class="btn btn-default">12</button>
+                        <button class="btn btn-default">13</button>
+                        <button class="btn btn-default">14</button>
+                        <button class="btn btn-default">15</button>
+                        <button class="btn btn-default">16</button>
+                        <button class="btn btn-default">17</button>
+                        <button class="btn btn-default">18</button>
+                        <button class="btn btn-default">19</button>
+                        <button class="btn btn-default">20</button>
+                    <div style="width: 100%;height: 25px;line-height:25px;background: #eeeeee;margin: 3px 0px;">过道</div>
+                    <div>
+                        <button class="btn btn-default">15</button>
+                        <button class="btn btn-default">16</button>
+                        <button class="btn btn-default">17</button>
+                        <button class="btn btn-default">18</button>
+                        <button class="btn btn-default">19</button>
+                        <button class="btn btn-default">20</button>
+                        <button class="btn btn-default">21</button>
+                        <button class="btn btn-default">22</button>
+                        <button class="btn btn-default">23</button>
+                        <button class="btn btn-default">24</button>
+                        <button class="btn btn-default">25</button>
+                        <button class="btn btn-default">26</button>
+                        <button class="btn btn-default">27</button>
+                        <button class="btn btn-default">28</button>
 
-    <!-- CTA Section -->
-    <section class="cta-section overlay animated a_f" style="background-image:url(../static/images/uploads/cta-bg.jpg)">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-9">
-                    <h4> Duis autem vel eum iriure dolor ndrerit</h4>
-                    <h2>We can call you and help with your problem.</h2>
-                </div>
-                <div class="col-md-3">
-                    <a href="#" class="b-btn cta-btn simple-hover1">Contact us <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- /.End Of CTA Section -->
-
+    <!-- /.End Of Our Project Section -->
 
     <!-- ImageText Holder Section -->
-    <section class="image-text-holder animated a_f spt100">
+    {{/*<section class="image-text-holder animated a_f spt100">
         <div class="container">
             <div class="row">
                 <div class="col-md-6">
@@ -414,17 +480,17 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section>*/}}
     <!-- /.End Of ImageText Holder Section -->
 
-    <!-- Our Team Section -->
+    <!-- Team -->
     <section class="our-team-section animated a_f spt100">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h2>Creative Team</h2>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputat essemo</p>
+                        <h2 id="team">核心团队</h2>
+                        <div style="height: 3px;width: 50px;background: #333333;margin: 0 auto;"></div>
                     </div>
                 </div>
             </div>
@@ -485,14 +551,14 @@
     </section>
     <!-- /.End Of Our Team Section -->
 
-    <!-- Latest News Section -->
+    <!-- Latest -->
     <section class="latest-news-section animated a_f sp100">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
                     <div class="section-title">
-                        <h2>Latest News</h2>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputat essemo</p>
+                        <h2 id="latest">最新推荐</h2>
+                        <div style="height: 3px;width: 50px;background: #333333;margin: 0 auto;"></div>
                     </div>
                 </div>
             </div>
@@ -534,61 +600,38 @@
     </section>
     <!-- /.End Of Latest News Section -->
 
+    <!-- Contact -->
+    <section  class="cta-section overlay animated a_f" style="background-image:url(../static/images/uploads/cta-bg.jpg)">
+        <div id="contact" class="container">
+            <div class="row">
+                <div class="col-md-9">
+                    <h4>我们会诚挚感谢您的建议</h4>
+                    <h2>如果您在使用过程中产生疑问</h2>
+                </div>
+                <div class="col-md-3">
+                    <a href="#" class="b-btn cta-btn simple-hover1">联系我们 <i class="fa fa-hand-o-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- /.End Of CTA Section -->
+
     <!-- Footer Section -->
     <footer class="footer-section animated a_f sp100">
         <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <div class="widget">
-                        <div class="footer-logo">
-                            <a href="index.html"><img src="../static/images/uploads/logo-2.png" alt=""></a>
-                        </div>
-                        <!-- /.End Of Footer Logo -->
-                        <p>Duis autem vel eum iriure dolor inhe ndrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros.</p>
-                        <p>Duis autem vel eum iriure dolor inhe ndrerit in vulputate velit esse molestie</p>
-                    </div>
-                </div>
+            <div id="support" class="row" style="text-align: center;color: #ffffff">
+                <h3 style="color: #ffffff;">LOGO</h3>
+                <div>技术支持：<a href="https://www.zooori.cn" target="_blank">ZooORI.才华有限公司</a></div>
+                <div>Copyright © 2018. All Rights Reserved.</div>
                 <!-- /.End Of Single Widget -->
-                <div class="col-md-4">
-                    <div class="widget">
-                        <h4 class="widget-title">RECENT NEWS</h4>
-                        <div class="latest-news-widget">
-
-                            <div class="sin-latest-news-widget">
-                                <a href="#" class="widget-news-thumb">
-                                    <img src="../static/images/news/img-03.jpg" alt="">
-                                </a>
-                                <div class="widget-news-content">
-                                    <p>Duis autem vel eum iriure dolorn endrerit in vulputate velit.</p>
-                                    <a href="#" class="news-posted-date">25 June, 2017</a>
-                                </div>
-                            </div>
-                            <!-- /.End Of Latest News Widget -->
-
-                            <div class="sin-latest-news-widget">
-                                <a href="#" class="widget-news-thumb">
-                                    <img src="../static/images/news/img-03.jpg" alt="">
-                                </a>
-                                <div class="widget-news-content">
-                                    <p>Duis autem vel eum iriure dolorn endrerit in vulputate velit.</p>
-                                    <a href="#" class="news-posted-date">25 June, 2017</a>
-                                </div>
-                            </div>
-                            <!-- /.End Of Latest News Widget -->
-
-                        </div>
-                        <!-- /.End Of Latest News -->
-                    </div>
-                </div>
-                <!-- /.End Of Single Widget -->
-                <div class="col-md-4">
+                {{/*<div class="col-md-4">
                     <div class="widget">
                         <h4 class="widget-title">photo gallery</h4>
                         <div class="badges">
                             <!--<script type="text/javascript" src="https://www.flickr.com/badge_code_v2.gne?count=8&amp;display=random&amp;size=s&amp;layout=x&amp;source=user&amp;user=34178660@N03"></script>-->
                         </div>
                     </div>
-                </div>
+                </div>*/}}
                 <!-- /.End Of Single Widget -->
             </div>
         </div>
@@ -641,7 +684,126 @@
                 pause:"hover",//鼠标进入时暂停
                 wrap:true//循环播放
             });
+
+            if(isMobile.any()){
+                addSeat(35);
+            }else{
+                addSeat(100);
+            }
+
         });
+
+        function addSeat(num) {
+            var index = 0;
+            var str;
+            $('#orderWrap01').html('');
+            var style = "btn";
+            var flag = "";
+            var Title;
+            for(var i=0;i<num;i++){
+                index = i+1;
+                if(i==0){
+                    $('#orderWrap01').append('<div style="text-align: left;margin-left: 11%;margin-bottom:5px;color: #5cb85c">入口<i class="fa fa-sign-in" aria-hidden="true"></i></div>');
+                }
+                var random = randomNum(1,10);
+                if(index%random==0){
+                    style = "btn btn-success";
+                    flag = "";
+                    Title = "当前座可选";
+                }else if(index%random==1){
+                    style = "btn btn-danger";
+                    flag = "disabled";
+                    Title = "当前座已被选";
+                }
+                if(index<10){
+                    str = "0"+index;
+                }else{
+                    str = index;
+                }
+                if(style=="btn btn-danger"){
+                    $('#orderWrap01').append('<button class="'+style+'" title="'+Title+'" disabled style="margin-left: 4px;">'+str+'</button>');
+                }else{
+                    $('#orderWrap01').append('<button class="'+style+'" onclick="alertInfo(this)" title="'+Title+'" style="margin-left: 4px;">'+str+'</button>');
+                }
+
+                if(isMobile.any()){
+                    if(index==7||index==14||index==21||index==28){
+                        //<div style="width: 100%;height: 25px;line-height:25px;background: #eeeeee;margin: 3px 0px;">过道</div>
+                        var str;
+                        if(index==7){
+                            str = "过道一";
+                        }else if(index==14){
+                            str = "过道二";
+                        }else if(index==21){
+                            str = "过道三";
+                        }else if(index==28){
+                            str = "过道四";
+                        }
+                        $('#orderWrap01').append('<div style="width: 85%;height: 25px;line-height:25px;background: #eeeeee;margin: 5px auto;">'+str+'</div>');
+                    }
+                }else {
+                    if(index==20||index==40||index==60||index==80){
+                        //<div style="width: 100%;height: 25px;line-height:25px;background: #eeeeee;margin: 3px 0px;">过道</div>
+                        var str;
+                        if(index==20){
+                            str = "过道一";
+                        }else if(index==40){
+                            str = "过道二";
+                        }else if(index==60){
+                            str = "过道三";
+                        }else if(index==80){
+                            str = "过道四";
+                        }
+                        $('#orderWrap01').append('<div style="width: 79%;height: 25px;line-height:25px;background: #eeeeee;margin: 5px auto;">'+str+'</div>');
+                    }
+                }
+                if(i==num-1){
+                    $('#orderWrap01').append('<div style="text-align: right;margin-top:5px;margin-right: 10%;color: #ff3828">出口<i class="fa fa-sign-out" aria-hidden="true"></i></div>');
+                }
+            }
+        }
+
+        function alertInfo(obj) {
+            console.log($(obj).html());
+            var seat = $(obj).html();
+
+            swal({
+                        title: "是否确定选择座位号:"+seat+"？",
+                        text: "选完座位将不可更改！",
+                        type: "warning",
+                        showCancelButton: true,
+                        confirmButtonColor: "#dd0800",
+                        confirmButtonText: "是",
+                        cancelButtonText: "否",
+                        closeOnConfirm: false,
+                        closeOnCancel: false
+                    },
+                    function(isConfirm){
+                        if (isConfirm) {
+                            swal("选作成功！", "我们将诚挚为您预留15分钟:)", "success");
+                            $(obj).removeClass("btn-success");
+                            $(obj).addClass("btn-danger");
+                            $(obj).attr("disabled","disabled");
+                        } else {
+                            swal("取消！", "期待您的再次光临:)", "error");
+                        }
+                    });
+        }
+
+        //生成从minNum到maxNum的随机数
+        function randomNum(minNum,maxNum){
+            switch(arguments.length){
+                case 1:
+                    return parseInt(Math.random()*minNum+1,10);
+                    break;
+                case 2:
+                    return parseInt(Math.random()*(maxNum-minNum+1)+minNum,10);
+                    break;
+                default:
+                    return 0;
+                    break;
+            }
+        }
     </script>
 
 </body>
