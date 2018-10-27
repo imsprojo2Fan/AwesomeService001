@@ -14,12 +14,12 @@
         });
 
         //Project Layout{Masonry}
-        if ($.fn.masonry) {
+        /*if ($.fn.masonry) {
             $('.project-wrapper').masonry({
                 itemSelector: '.sin-project',
                 columnWidth: 1
             });
-        }
+        }*/
 
         //Clients Reviews Slider{owlCarousel}
         if ($.fn.owlCarousel) {

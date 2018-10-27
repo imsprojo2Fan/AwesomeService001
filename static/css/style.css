@@ -31,7 +31,7 @@ ul {
   list-style: none; }
 
 img {
-  max-width: 100%; }
+  max-width: 120%; }
 
 a,
 a:focus,
@@ -189,7 +189,7 @@ a.simple-hover1 i {
     transform: translateY(0px);
     opacity: 0; } }
 .last {
-  margin-bottom: 0 !important;
+  /*margin-bottom: 0 !important;*/
   padding-bottom: 0 !important; }
 
 /* ==========================================================
@@ -261,7 +261,7 @@ a.simple-hover1 i {
   height: 100px;
   line-height: 100px;
   border-bottom:0.5px solid #eee;
-  z-index: 1;
+  z-index: 9999;
 }
 .header-area .main-menu-area .menu-bg:after {
   border: 0px dashed #eb9e28;
@@ -767,17 +767,29 @@ a.simple-hover1 i {
 /* 8. Projects Area CSS
 /* =================================== */
 .sin-project {
-  width: 22%;
-  margin: 30px 15px 0; }
+
+}
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .sin-project {
+    float: left;
+    display: inline-block;
+    height: 190px;
     width: 30%; } }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .sin-project {
-    width: 45%; } }
+    float: left;
+    display: inline-block;
+    height: 190px;
+    width: 45%; }
+}
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .sin-project {
-    width: 90%; } }
+    float: left;
+    display: inline-block;
+    height: 190px;
+    width: 90%; }
+
+}
 .sin-project:hover .project-hover {
   visibility: visible;
   opacity: 1;
@@ -2126,7 +2138,7 @@ body.s-color-two .secondary-color li.green:after {
   to {
     -webkit-transform: rotate(360deg); } }
 
-/*# sourceMappingURL=style.css.map */
+
 
 .wechat {
   display: none;
