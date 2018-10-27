@@ -88,7 +88,7 @@ h6 {
   background: #eb9e28;
   border-radius: 5px;
   line-height: inherit;
-  padding: 17px 40px 15px; }
+  padding: 15px 25px 15px; }
 
 .cta-btn {
   background: #fff;
@@ -118,7 +118,7 @@ h6 {
   padding: 100px 0 0; }
 
 .spb100 {
-  padding: 0 0 100px; }
+  padding: 0 0 45px; }
 
 .pL-30 {
   padding-left: 30px; }
@@ -400,7 +400,11 @@ a.simple-hover1 i {
     font-size: 12px; } }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .header-area .main-menu-area .main-menu .nav.navbar-nav li a {
-    padding: 10px 22px; } }
+    padding: 10px 22px; }
+  .a_f{
+    text-align: center;
+  }
+}
 .header-area .main-menu-area .main-menu .nav.navbar-nav li a:hover {
   color: #eb9e28;
   text-decoration: line-through; }
@@ -625,7 +629,11 @@ a.simple-hover1 i {
 /* =================================== */
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 0px) and (max-width: 767px) {
   .services-area.sp100 {
-    padding: 100px 0 80px; } }
+    padding: 30px 0 80px; }
+  .spb100 {
+    padding: 0 0 15px;
+  }
+}
 .sin-service {
   text-align: center;
   font-weight: 300;
