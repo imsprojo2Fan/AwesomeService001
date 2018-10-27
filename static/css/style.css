@@ -85,7 +85,7 @@ h6 {
   color: #fff; }
 
 .read-more-btn {
-  background: #288feb;
+  background: #eb9e28;
   border-radius: 5px;
   line-height: inherit;
   padding: 17px 40px 15px; }
@@ -93,7 +93,7 @@ h6 {
 .cta-btn {
   background: #fff;
   border-radius: 5px;
-  color: #288feb;
+  color: #eb9e28;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 0.5px;
@@ -104,7 +104,7 @@ h6 {
   .cta-btn {
     padding: 17px 47px; } }
 .cta-btn:hover {
-  color: #288feb; }
+  color: #eb9e28; }
 .cta-btn i {
   margin-left: 5px; }
 
@@ -144,7 +144,7 @@ h6 {
   -moz-transition: 0.3s;
   -o-transition: 0.3s; }
 .upx-btn-hover1:after {
-  background: #288feb;
+  background: #eb9e28;
   content: "";
   height: 100%;
   left: 0;
@@ -162,7 +162,7 @@ h6 {
   visibility: visible;
   opacity: 1; }
 .upx-btn-hover1:hover {
-  border-color: #288feb !important; }
+  border-color: #eb9e28 !important; }
 
 a.simple-hover1 i {
   transition: 0.4s;
@@ -264,7 +264,7 @@ a.simple-hover1 i {
   z-index: 1;
 }
 .header-area .main-menu-area .menu-bg:after {
-  border: 0px dashed #288feb;
+  border: 0px dashed #eb9e28;
   content: "";
   height: calc(100% - 16px);
   left: 8px;
@@ -274,6 +274,7 @@ a.simple-hover1 i {
   z-index: -1; }
 .header-area .main-menu-area .logo {
   margin-left:28px;
+  margin-top: 28px;
 }
 .header-area .main-menu-area .main-menu .nav.navbar-nav {
   float: none;
@@ -328,7 +329,7 @@ a.simple-hover1 i {
   .header-area .main-menu-area .main-menu .nav.navbar-nav li ul {
     padding-left: 10px; } }
 .header-area .main-menu-area .main-menu .nav.navbar-nav li ul li {
-  border-bottom: 1px dashed #288feb; }
+  border-bottom: 1px dashed #eb9e28; }
 @media only screen and (min-width: 768px) {
   .header-area .main-menu-area .main-menu .nav.navbar-nav li:hover > ul {
     transform: translateY(0px);
@@ -401,7 +402,7 @@ a.simple-hover1 i {
   .header-area .main-menu-area .main-menu .nav.navbar-nav li a {
     padding: 10px 22px; } }
 .header-area .main-menu-area .main-menu .nav.navbar-nav li a:hover {
-  color: #288feb;
+  color: #eb9e28;
   text-decoration: line-through; }
 .header-area .main-menu-area .main-menu .nav.navbar-nav li a:focus, .header-area .main-menu-area .main-menu .nav.navbar-nav li a:hover {
   background: none; }
@@ -493,7 +494,7 @@ a.simple-hover1 i {
   top:-23px;
   width: 30px; }
 .header-area .main-menu-area .main-menu .search-box .search-form button i {
-  color: #288feb; }
+  color: #eb9e28; }
 .header-area .page-title {
   height: 50%;
   left: 0;
@@ -534,7 +535,7 @@ a.simple-hover1 i {
   -moz-transition: 0.4s;
   -o-transition: 0.4s; }
 .header-area .page-title .breadcrumbs li a:hover {
-  color: #288feb; }
+  color: #eb9e28; }
 .header-area .slider-area {
   position: absolute;
   left: 0;
@@ -592,7 +593,7 @@ a.simple-hover1 i {
   .slideItem .slide-content h1 {
     font-size: 25px; } }
 .slideItem .slide-content h1 span {
-  color: #288feb; }
+  color: #eb9e28; }
 .slideItem .slide-content p {
   margin-bottom: 35px; }
 .slideItem .slide-content .b-btn {
@@ -602,8 +603,8 @@ a.simple-hover1 i {
   margin: 0 10px;
   letter-spacing: 0.5px; }
 .slideItem .slide-content .b-btn.btn-filled {
-  background: #288feb;
-  border-color: #288feb; }
+  background: #eb9e28;
+  border-color: #eb9e28; }
 .slideItem .slide-content .b-btn i {
   margin-left: 5px; }
 .slideItem .slide-content .b-btn {
@@ -638,7 +639,7 @@ a.simple-hover1 i {
   position: absolute;
   left: 0;
   top: 0;
-  background: #288feb;
+  background: #eb9e28;
   content: "";
   height: 0;
   width: 1px;
@@ -649,7 +650,7 @@ a.simple-hover1 i {
   position: absolute;
   right: 0;
   top: 0;
-  background: #288feb;
+  background: #eb9e28;
   content: "";
   height: 0;
   right: 0;
@@ -666,7 +667,7 @@ a.simple-hover1 i {
   width: 100%;
   z-index: 9; }
 .sin-service .service-hover-bar:before {
-  background: #288feb;
+  background: #eb9e28;
   content: "";
   height: 1px;
   position: absolute;
@@ -677,7 +678,7 @@ a.simple-hover1 i {
   -moz-transition: 0.3s;
   -o-transition: 0.3s; }
 .sin-service .service-hover-bar:after {
-  background: #288feb;
+  background: #eb9e28;
   content: "";
   height: 1px;
   position: absolute;
@@ -689,9 +690,9 @@ a.simple-hover1 i {
   -o-transition: 0.4s; }
 .sin-service .service-icon {
   background: #fff;
-  border: 5px solid #deefff;
+  border: 5px solid #eb9e282e;
   border-radius: 50%;
-  color: #288feb;
+  color: #eb9e28;
   display: inline-block;
   font-size: 35px;
   height: 86px;
@@ -703,7 +704,7 @@ a.simple-hover1 i {
   position: relative;
   z-index: 9; }
 .sin-service .service-icon:after {
-  background: #288feb;
+  background: #eb9e28;
   border-radius: 50%;
   content: "";
   height: 100%;
@@ -752,7 +753,7 @@ a.simple-hover1 i {
 .text-holder h2 {
   font-size: 30px; }
 .text-holder p a {
-  color: #288feb; }
+  color: #eb9e28; }
 .text-holder a {
   margin-top: 10px; }
 
@@ -782,7 +783,7 @@ a.simple-hover1 i {
   opacity: 1;
   bottom: 18px; }
 .sin-project .project-hover {
-  background: #288feb;
+  background: #eb9e28bd;
   border-radius: 3px;
   bottom: 0;
   display: inline-block;
@@ -816,9 +817,10 @@ a.simple-hover1 i {
 /* 9. CTA Area CSS
 /* =================================== */
 .cta-section {
+  margin-top: 45px;
   padding: 50px 0; }
 .cta-section.overlay:after {
-  background: #288feb;
+  background: #eb9e28;
   opacity: 0.95; }
 @media only screen and (min-width: 768px) and (max-width: 991px), only screen and (min-width: 0px) and (max-width: 767px) {
   .cta-section {
@@ -872,7 +874,7 @@ a.simple-hover1 i {
   height: 100%;
   width: 100%;
   content: "";
-  border: 4px solid #288feb;
+  border: 4px solid #eb9e28;
   transform: scale(1.2);
   transition: 0.4s;
   -moz-transition: 0.4s;
@@ -889,7 +891,7 @@ a.simple-hover1 i {
   .sin-team-member img {
     width: 100%; } }
 .sin-team-member .team-member-hover {
-  background: #288feb;
+  background: #eb9e28;
   border-radius: 5px;
   bottom: -39px;
   left: 10px;
@@ -932,9 +934,9 @@ a.simple-hover1 i {
   .sin-latest-news {
     margin-bottom: 70px; } }
 .sin-latest-news .latest-news-content {
-  border-left: 6px solid #288feb;
+  border-left: 6px solid #eb9e28;
   left: 0;
-  padding-left: 184px;
+  padding-left: 290px;
   position: absolute;
   top: 36%; }
 @media only screen and (min-width: 0px) and (max-width: 767px) {
@@ -946,11 +948,11 @@ a.simple-hover1 i {
   .sin-latest-news .latest-news-content {
     padding-left: 124px; } }
 .sin-latest-news .latest-news-content .news-text {
-  background: #288feb;
-  border-radius: 5px;
+  background: #eb9e28;
+  border-radius: 3px;
   color: #fff;
   font-weight: 300;
-  padding: 23px 10px 10px 23px; }
+  padding: 10px 45px 5px 45px; }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .sin-latest-news .latest-news-content .news-text {
     font-size: 14px; } }
@@ -968,7 +970,7 @@ a.simple-hover1 i {
 .sin-latest-news .latest-news-content .news-text a {
   color: #fff;
   font-weight: 300;
-  font-size: 15px;
+  font-size: 12px;
   display: block;
   margin-bottom: 10px; }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -1006,7 +1008,7 @@ a.simple-hover1 i {
   .footer-section .widget .footer-logo {
     margin-bottom: 15px; } }
 .footer-section .news-posted-date {
-  color: #288feb;
+  color: #eb9e28;
   font-size: 14px;
   font-weight: 300; }
 .footer-section .badges div {
@@ -1058,7 +1060,7 @@ a.simple-hover1 i {
 .customer-stament-wrapper .owl-stage-outer {
   padding: 0 0 42px !important; }
 .customer-stament-wrapper .owl-nav div {
-  background: #288feb;
+  background: #eb9e28;
   color: #fff;
   display: inline-block;
   font-size: 18px;
@@ -1088,7 +1090,7 @@ a.simple-hover1 i {
 .sin-c-statement .statement-content p {
   margin-bottom: 20px; }
 .sin-c-statement .customer-meta {
-  background: #288feb;
+  background: #eb9e28;
   bottom: -35px;
   left: 50%;
   margin-left: -110px;
@@ -1128,7 +1130,7 @@ a.simple-hover1 i {
   position: absolute;
   text-align: center;
   top: 40%;
-  background: #288feb;
+  background: #eb9e28;
   color: #fff;
   border-radius: 3px;
   width: 40px;
@@ -1163,7 +1165,7 @@ a.simple-hover1 i {
 .sin-pricing-box.special .order-now-btn {
   background: #000000; }
 .sin-pricing-box .pricing-head {
-  background: #288feb;
+  background: #eb9e28;
   padding: 30px 0; }
 .sin-pricing-box .pricing-head .price {
   font-size: 40px;
@@ -1198,7 +1200,7 @@ a.simple-hover1 i {
   font-weight: 500;
   padding: 15px 28px;
   text-transform: capitalize;
-  background: #288feb;
+  background: #eb9e28;
   transition: 0.4s;
   -moz-transition: 0.4s;
   -o-transition: 0.4s; }
@@ -1224,9 +1226,9 @@ a.simple-hover1 i {
 .btheme-breadcumbs li {
   display: inline-block; }
 .btheme-breadcumbs li.active a {
-  background: #288feb;
+  background: #eb9e28;
   color: #fff;
-  border-color: #288feb; }
+  border-color: #eb9e28; }
 .btheme-breadcumbs li a {
   display: block;
   height: 40px;
@@ -1273,7 +1275,7 @@ a.simple-hover1 i {
   margin: 0 5px 0 0;
   position: relative; }
 .blog-details-section .blog-posted-meta .tags li a:hover {
-  color: #288feb; }
+  color: #eb9e28; }
 .blog-details-section .blog-posted-meta .tags li a:after {
   bottom: 2px;
   content: ",";
@@ -1304,7 +1306,7 @@ a.simple-hover1 i {
   width: calc(100% - 45px); }
 .sidebar .widget.widget_search .widget-search button {
   width: 40px;
-  color: #288feb; }
+  color: #eb9e28; }
 .sidebar .widget ul li {
   margin-bottom: 12px;
   padding-left: 20px;
@@ -1315,7 +1317,7 @@ a.simple-hover1 i {
 .sidebar .widget ul li:hover {
   margin-left: 20px; }
 .sidebar .widget ul li:hover:after {
-  color: #288feb; }
+  color: #eb9e28; }
 .sidebar .widget ul li:after {
   font-family: icofont;
   left: 0;
@@ -1333,7 +1335,7 @@ a.simple-hover1 i {
   -moz-transition: 0.4s;
   -o-transition: 0.4s; }
 .sidebar .widget ul li a:hover {
-  color: #288feb; }
+  color: #eb9e28; }
 .sidebar .widget .widget-title {
   color: #000000;
   font-size: 22px;
@@ -1360,7 +1362,7 @@ a.simple-hover1 i {
 .sidebar .widget .recent-news-wrap .sin-r-news .sin-r-news-content .date {
   display: block;
   font-size: 13px;
-  color: #288feb; }
+  color: #eb9e28; }
 
 /* =================================== */
 /* 22. Comments CSS
@@ -1406,13 +1408,13 @@ a.simple-hover1 i {
   font-weight: 300;
   margin-bottom: 7px; }
 .comment-section .comments li .comment .comment-content .comment-date:hover {
-  color: #288feb; }
+  color: #eb9e28; }
 .comment-section .comments li .comment .comment-content .replay-btn {
   color: #000000;
   font-size: 16px;
   font-weight: 500; }
 .comment-section .comments li .comment .comment-content .replay-btn i {
-  color: #288feb; }
+  color: #eb9e28; }
 .comment-section .comments-form h4 {
   color: #000000;
   font-size: 22px;
@@ -1436,14 +1438,14 @@ a.simple-hover1 i {
   border-color: #66afe9;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6); }
 .comment-section .comments-form form input[type="submit"] {
-  border-color: #288feb;
+  border-color: #eb9e28;
   border-radius: 3px;
   color: #ffffff;
   font-weight: 500;
   padding: 16px 30px;
   text-transform: capitalize;
   width: auto;
-  background: #288feb;
+  background: #eb9e28;
   margin: 20px 0 0; }
 
 /* =================================== */
@@ -1473,7 +1475,7 @@ a.simple-hover1 i {
   .faq-page-section dl.accordion {
     margin-bottom: 30px; } }
 .faq-page-section dl.accordion dt {
-  background: #288feb;
+  background: #eb9e28;
   border-radius: 3px;
   color: #fff;
   font-size: 18px;
@@ -1495,7 +1497,7 @@ a.simple-hover1 i {
 .faq-page-section dl.accordion dt:after {
   background: #fff;
   border-radius: 3px;
-  color: #288feb;
+  color: #eb9e28;
   content: "\f0a5";
   font-family: icofont;
   font-size: 18px;
@@ -1509,7 +1511,7 @@ a.simple-hover1 i {
 @media only screen and (min-width: 0px) and (max-width: 767px) {
   .faq-page-section dl.accordion dt:after {
     border-radius: 3px;
-    color: #288feb;
+    color: #eb9e28;
     font-size: 12px;
     height: 32px;
     line-height: 32px;
@@ -1575,7 +1577,7 @@ a.simple-hover1 i {
   font-weight: 500;
   letter-spacing: 0.5px;
   padding: 19px 44px;
-  background: #288feb;
+  background: #eb9e28;
   margin-top: 20px; }
 
 /* =================================== */
@@ -1613,7 +1615,7 @@ a.simple-hover1 i {
   padding: 22px 35px;
   position: absolute;
   top: 200px;
-  background: #288feb; }
+  background: #eb9e28; }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .contact-section .contact-form .contact-infos {
     left: 0;
@@ -1666,7 +1668,7 @@ a.simple-hover1 i {
   letter-spacing: 0.5px;
   margin-top: 15px;
   padding: 15px 30px;
-  background: #288feb; }
+  background: #eb9e28; }
 
 /* =================================== */
 /* 28. 404 page CSS
@@ -1690,7 +1692,7 @@ a.simple-hover1 i {
     padding-left: 0;
     margin-top: 15px; } }
 .err-content-section .err-content .err-message span {
-  color: #288feb;
+  color: #eb9e28;
   font-weight: 500; }
 .err-content-section .err-content .err-message a {
   font-weight: normal;
@@ -2000,7 +2002,7 @@ body .color-picker-wrap {
 body .color-picker-wrap.visible-color-wrap {
   left: 0; }
 body .col-trigger {
-  background: #288feb;
+  background: #eb9e28;
   color: #fff;
   border-radius: 0 5px 5px 0;
   cursor: pointer;

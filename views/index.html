@@ -9,7 +9,7 @@
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0" />
 
     <!-- Title -->
-    <title>HOME</title>
+    <title>楼上洞天</title>
 
     <!-- <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet"> -->
 
@@ -54,7 +54,7 @@
             color:#ffffff;
         }
         #support a:hover{
-            color:#3694ea;
+            color:#eb9e28;
         }
         #orderWrap a{
             cursor: pointer;
@@ -62,6 +62,19 @@
         }
         #orderWrap a:hover{
             color: #eeac00;
+        }
+        .logo a:hover h1{
+            color: #eb9e28;
+        }
+        .itemTitle{
+            position: absolute;
+            z-index: 999;
+            width: 100%;
+            height:35px;
+            line-height: 35px;
+            background: #474747c9;
+            color: #fff;
+            padding-left: 6px;
         }
     </style>
 </head>
@@ -77,7 +90,7 @@
     <div style="display: none;" class="color-picker-wrap visible-color-wrap">
         <span class="col-trigger"><i class="icofont icofont-calculations"></i></span>
         <div class="col-picker-top">
-            <a href="index.html"><img src="../static/images/uploads/logo.png" alt=""></a>
+            <a href="/"><h1>景轩餐厅</h1></a>
         </div>
         <div class="col-picker-bottom">
             <div class="sin-palate">
@@ -111,7 +124,7 @@
                     <div class="row">
                         <div class="col-md-2 col-sm-3">
                             <div class="logo">
-                                <a href="/"><img src="../static/images/uploads/logo.png" alt=""></a>
+                                <a href="/"><h1 style="">楼上洞天</h1></a>
                             </div>
                             <!-- /.End Of Logo -->
                         </div>
@@ -132,8 +145,8 @@
                                     <ul class="nav navbar-nav">
                                         <li><a href="javascript:redirect('')">主页</a></li>
                                         <li><a href="javascript:redirect('about')">关于我们</a></li>
-                                        <li><a href="javascript:redirect('service')">所有服务</a></li>
-                                        <li><a href="javascript:redirect('team')">核心团队</a></li>
+                                        <li><a href="javascript:redirect('service')">菜品套餐</a></li>
+                                        {{/*<li><a href="javascript:redirect('team')">核心团队</a></li>*/}}
                                         <li><a href="javascript:redirect('latest')">最新推荐</a></li>
                                         <li><a href="javascript:redirect('contact')">联系我们</a></li>
                                     </ul>
@@ -174,7 +187,7 @@
                 <div class="item active" >
                     <div class="slideItem overlay" style="background-image:url(../static/images/slides/img-01_.jpg);">
                         <div class="slide-content">
-                            <h1 style="opacity: 1;" class="slideInLeft animated">We give always <span>creative3</span> design</h1>
+                            <h1 style="opacity: 1;" class="slideInLeft animated">We give always <span>creative1</span> design</h1>
                             <p style="opacity: 1;" class="fadeInUp animated">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie nseuat, vel illum nulla facilisis
                                 <br> at vero eros et accumsan putate velit esse molestie et iusto odio dignssim praesent .</p>
                             <a href="" class="b-btn simple-hover1 btn-filled fadeInUp animated" style="opacity: 1;">Discover more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -186,7 +199,7 @@
                 <div class="item">
                     <div class="slideItem overlay" style="background-image:url(../static/images/slides/img-02_.jpg);">
                         <div class="slide-content">
-                            <h1 style="opacity: 1;" class="slideInRight animated">We give always <span>creative3</span> design</h1>
+                            <h1 style="opacity: 1;" class="slideInRight animated">We give always <span>creative2</span> design</h1>
                             <p style="opacity: 1;" class="fadeInUp animated">Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie nseuat, vel illum nulla facilisis
                                 <br> at vero eros et accumsan putate velit esse molestie et iusto odio dignssim praesent .</p>
                             <a href="" class="b-btn simple-hover1 btn-filled fadeInUp animated" style="opacity: 1;">Discover more <i class="fa fa-angle-right" aria-hidden="true"></i></a>
@@ -243,7 +256,7 @@
                                 <i style="margin-top: -2px;" class="fa fa-cutlery" aria-hidden="true"></i>
                         </div>
                         <h4>甄选原生态材料</h4>
-                        <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
+                        <p>所有食材均来自有机农场,三道严格而缜密的人工筛选,在源头上保证食材的新鲜,把控好第一味的健康</p>
                     </div>
                 </div>
                 <!-- /.End Of Single Service Item -->
@@ -254,7 +267,7 @@
                             <i class="btheme-drawing"></i>
                         </div>
                         <h4>量身定制精选套餐</h4>
-                        <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
+                        <p>为师生提供经科学研讨精心设计的营养套餐,让他们在学习教育备受压力时亦能享受到美味及健康的体验</p>
                     </div>
                 </div>
                 <!-- /.End Of Single Service Item -->
@@ -265,8 +278,8 @@
                             {{/*<i class="btheme-bar-chart"></i>*/}}
                             <i style="margin-top: 3px;" class="fa fa-clock-o fa-2x" aria-hidden="true"></i>
                         </div>
-                        <h4>24小时在线服务</h4>
-                        <p>Duis autem vel eum nure dolor hendre mulputate velesse molestie conse accums odio dissim asent.</p>
+                        <h4>直选线上订位服务</h4>
+                        <p>提供线上订座点餐预约服务，师生们可以提前下单，减少排队等候时间成本，提高餐厅运作效率。</p>
                     </div>
                 </div>
                 <!-- /.End Of Single Service Item -->
@@ -281,16 +294,16 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="image-holder animated a_f">
-                        <img src="../static/images/uploads/about-thumb.jpg" alt="">
+                        <img src="../static/images/about.jpg" alt="">
                     </div>
                     <!-- /.End Of Image Holder -->
                 </div>
                 <div class="col-md-6">
                     <div class="text-holder pL animated a_f">
-                        <h2>We are always expert.</h2>
-                        <p>Duis autem vel <a href="">“eum iriure dolor in hendrerit in vulputate”</a> velit essemol estie consequat, vel illum dolore eu feugiat nulla facilisis at vererost accumsan et iusto odio dignissim.</p>
-                        <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit essemol estie consequat, vel illum dolore eu feugiat nulla facilisis at veroeim accumsan et iusto odio dignissim qui blandit praesent.</p>
-                        <a href="#" class="b-btn simple-hover1 read-more-btn">Read more <i class="icofont icofont-long-arrow-right"></i></a>
+                        <h2>楼上洞天餐饮文化有限责任公司</h2>
+                        <p>'楼上洞天'创办于2018年10月，致力于为顾客提供绿色健康的饮食，古典优雅的环境，以及文化养生的配套设施。本公司以顾客至上，尽力满足顾客的每一项需求。我们将以河海大学常州校区为试点，开展连锁式的高校食堂餐厅，争取做到国内一流，国际知名。
+                        </p>
+                        <a href="#" class="b-btn simple-hover1 read-more-btn">阅读更多 <i class="icofont icofont-long-arrow-right"></i></a>
                     </div>
                     <!-- /.End Of Text Holder -->
                 </div>
@@ -304,7 +317,7 @@
         <div class="container">
             <div class="row">
                 <div class="section-title">
-                    <h2 id="service">所有服务</h2>
+                    <h2 id="service">菜品套餐</h2>
                     <div style="height: 3px;width: 50px;background: #333333;margin: 0 auto;"></div>
                 </div>
             </div>
@@ -313,10 +326,11 @@
                     <div class="project-wrapper">
 
                         <div class="sin-project">
-                            <img src="../static/images/projects/img-01.jpg" alt="">
+                            <div class="itemTitle" >300卡粗粮减肥套餐</div>
+                            <img src="../static/images/item/item01.jpg" alt="">
                             <a href="" class="project-hover">
-                                <h4>Project Title</h4>
-                                <span>Graphic Design</span>
+                                <h4>红稻米粥</h4>
+                                <span>￥6</span>
                                 <i class="icofont icofont-long-arrow-right"></i>
                             </a>
                             <!-- /.End Of Project Hover -->
@@ -325,32 +339,186 @@
                         <!-- /.End Of Single Project -->
 
                         <div class="sin-project">
-                            <img src="../static/images/projects/img-02.jpg" alt="">
-
-                            <a href="" class="project-hover">
-                                <h4>Project Title</h4>
-                                <span>Graphic Design</span>
-                                <i class="icofont icofont-long-arrow-right"></i>
+                            <div class="itemTitle" >300卡粗粮减肥套餐</div>
+                            <img src="../static/images/item/item02.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>绿畦香稻粳米饭</h4>
+                                <span>￥7</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
                             </a>
                             <!-- /.End Of Project Hover -->
-
                         </div>
                         <!-- /.End Of Single Project -->
 
                         <div class="sin-project">
-                            <img src="../static/images/projects/img-02.jpg" alt="">
-
-                            <a href="" class="project-hover">
-                                <h4>Project Title</h4>
-                                <span>Graphic Design</span>
+                            <div class="itemTitle" >300卡粗粮减肥套餐</div>
+                            <img src="../static/images/item/item03.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>东坡二红饭</h4>
+                                <span>￥8</span>
                                 <i class="icofont icofont-long-arrow-right"></i>
                             </a>
                             <!-- /.End Of Project Hover -->
-
                         </div>
                         <!-- /.End Of Single Project -->
 
-                        <div class="sin-project large-height-project">
+                        <div class="sin-project">
+                            <div class="itemTitle" >300卡粗粮减肥套餐</div>
+                            <img src="../static/images/item/item04.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>阳春面</h4>
+                                <span>￥6</span>
+                                <i class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >600卡女性标准套餐</div>
+                            <img src="../static/images/item/item05.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>五行套餐</h4>
+                                <span>￥11</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >600卡女性标准套餐</div>
+                            <img src="../static/images/item/item06.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>什锦粄条套餐</h4>
+                                <span>￥12</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >800卡男性标准套餐</div>
+                            <img src="../static/images/item/item07.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>鸡肉咖喱饭套餐</h4>
+                                <span>￥14</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >800卡粗粮减肥套餐</div>
+                            <img src="../static/images/item/item08.jpeg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>咖喱牛腩饭套餐</h4>
+                                <span>￥15</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >热菜类</div>
+                            <img src="../static/images/item/item09.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>玉带虾仁</h4>
+                                <span>￥8</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >热菜类</div>
+                            <img src="../static/images/item/item10.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>麻婆豆腐</h4>
+                                <span>￥9</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >热菜类</div>
+                            <img src="../static/images/item/item11.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>辣子鸡丁</h4>
+                                <span>￥12</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >热菜类</div>
+                            <img src="../static/images/item/item12.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>东坡肘子</h4>
+                                <span>￥16</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >豪华营养餐</div>
+                            <img src="../static/images/item/item13.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>酸菜鱼</h4>
+                                <span>￥30</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >豪华营养餐</div>
+                            <img src="../static/images/item/item14.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>清炖全鸡</h4>
+                                <span>￥50</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >中式糕点</div>
+                            <img src="../static/images/item/item15.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>枣泥馅山药糕</h4>
+                                <span>￥5</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        <div class="sin-project">
+                            <div class="itemTitle" >中式糕点</div>
+                            <img src="../static/images/item/item16.jpg" alt="">
+                            <a href="javascript:void(0);" class="project-hover">
+                                <h4>南瓜荷叶饼</h4>
+                                <span>￥5</span>
+                                <i                    class="icofont icofont-long-arrow-right"></i>
+                            </a>
+                            <!-- /.End Of Project Hover -->
+                        </div>
+                        <!-- /.End Of Single Project -->
+
+                        {{/*<div class="sin-project large-height-project">
                             <img src="../static/images/projects/img-04.jpg" alt="">
 
                             <a href="" class="project-hover">
@@ -360,52 +528,18 @@
                             </a>
                             <!-- /.End Of Project Hover -->
 
-                        </div>
-                        <!-- /.End Of Single Project -->
-
-                        <div class="sin-project">
-                            <img src="../static/images/projects/img-01.jpg" alt="">
-
-                            <a href="" class="project-hover">
-                                <h4>Project Title</h4>
-                                <span>Graphic Design</span>
-                                <i class="icofont icofont-long-arrow-right"></i>
-                            </a>
-                            <!-- /.End Of Project Hover -->
-
-                        </div>
-                        <!-- /.End Of Single Project -->
-
-                        <div class="sin-project">
-                            <img src="../static/images/projects/img-02.jpg" alt="">
-
-                            <a href="" class="project-hover">
-                                <h4>Project Title</h4>
-                                <span>Graphic Design</span>
-                                <i class="icofont icofont-long-arrow-right"></i>
-                            </a>
-                            <!-- /.End Of Project Hover -->
-
-                        </div>
-                        <!-- /.End Of Single Project -->
-
-                        <div class="sin-project">
-                            <img src="../static/images/projects/img-02.jpg" alt="">
-
-                            <a href="" class="project-hover">
-                                <h4>Project Title</h4>
-                                <span>Graphic Design</span>
-                                <i class="icofont icofont-long-arrow-right"></i>
-                            </a>
-                            <!-- /.End Of Project Hover -->
-
-                        </div>
+                        </div>*/}}
                         <!-- /.End Of Single Project -->
 
                     </div>
                     <!-- /.End Of Project Wrapper -->
                 </div>
             </div>
+
+            <div class="row" style="text-align: center;margin: 35px 0px;padding:15px 0px;border-bottom:3px solid #33333385;">
+                <button class="btn" onclick="itemMore();" style="background:#f0ad4e;color: #ffffff;">查看更多</button>
+            </div>
+
             <div id="orderWrap" class="row " style="color: #333333;margin-top: 40px;text-align: center">
                 <a>
                     <i class="fa fa-lightbulb-o fa-2x" aria-hidden="true"></i>
@@ -413,6 +547,7 @@
                 <span style="margin-left: 5px;;font-size: 20px;">在线订座</span>
                 <div style="width: 50px;height: 3px;background: #333333bf;margin:12px auto"></div>
                 <div id="orderWrap01" style="border: 1px solid #eeeeee;border-radius:3px;width:100%;margin: 15px auto;padding: 55px 0px;">
+                    <div>未选:<button class="btn btn-default" disabled></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;已选:<button class="btn btn-danger" disabled></button></div>
                     <div style="text-align: left;margin-left: 10%;color: #5cb85c">入口<i class="fa fa-sign-in" aria-hidden="true"></i></div>
                     <div style="text-align: left;margin-left: 10%;color: #ff3828">出口<i class="fa fa-sign-out" aria-hidden="true"></i></div>
                     <button class="btn btn-default">01</button>
@@ -484,7 +619,7 @@
     <!-- /.End Of ImageText Holder Section -->
 
     <!-- Team -->
-    <section class="our-team-section animated a_f spt100">
+    {{/*<section class="our-team-section animated a_f spt100">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -548,11 +683,11 @@
                 <!-- /.End Of Single Team Member -->
             </div>
         </div>
-    </section>
+    </section>*/}}
     <!-- /.End Of Our Team Section -->
 
     <!-- Latest -->
-    <section class="latest-news-section animated a_f sp100">
+    <section class="latest-news-section animated a_f ">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -566,14 +701,14 @@
                 <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
                     <div class="sin-latest-news">
                         <div class="latest-news-thumb">
-                            <img src="../static/images/news/img-01.jpg" alt="">
+                            <img src="../static/images/recommend/recommend01.jpg" alt="">
                         </div>
                         <!-- /.End Of Latest News Thumb -->
                         <div class="latest-news-content">
                             <div class="news-text">
-                                <a href=""><h4>Duis autem vel eum iriure dolor.</h4></a>
-                                <a href="#" class="news-date">22 December, 2017</a>
-                                <p>Mutem vel eum iriure dolor in hendrerit in putate velit esse molestie conseq illumdre.</p>
+                                <a href=""><h4>鲜活紫蔬沙拉</h4></a>
+                                <a href="#" class="news-date">27 October, 2018</a>
+                                <p style="line-height: 8px;">甜而不腻,绿色健康.</p>
                             </div>
                         </div>
                     </div>
@@ -582,18 +717,52 @@
                 <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
                     <div class="sin-latest-news last">
                         <div class="latest-news-thumb">
-                            <img src="../static/images/news/img-02.jpg" alt="">
+                            <img src="../static/images/recommend/recommend02.jpg" alt="">
                         </div>
                         <!-- /.End Of Latest News Thumb -->
                         <div class="latest-news-content">
                             <div class="news-text">
-                                <a href=""><h4>Duis autem vel eum iriure dolor.</h4></a>
-                                <a href="#" class="news-date">22 December, 2017</a>
-                                <p>Mutem vel eum iriure dolor in hendrerit in putate velit esse molestie conseq illumdre.</p>
+                                <a href=""><h4>吐司吐司</h4></a>
+                                <a href="#" class="news-date">22 October, 2018</a>
+                                <p style="line-height: 8px;">酥软焦脆,一饱口福.</p>
                             </div>
                         </div>
                     </div>
                 </div>
+                <!-- /.End Of Single Latest News -->
+            </div>
+            <div class="row" style="margin-top: 15px;">
+                <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
+                        <div class="sin-latest-news last">
+                            <div class="latest-news-thumb">
+                                <img src="../static/images/recommend/recommend03.jpg" alt="">
+                            </div>
+                            <!-- /.End Of Latest News Thumb -->
+                            <div class="latest-news-content">
+                                <div class="news-text">
+                                    <a href=""><h4>豆蔻年华</h4></a>
+                                    <a href="#" class="news-date">22 October, 2018</a>
+                                    <p style="line-height: 8px;">花前月下,豆蔻年华.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                <!-- /.End Of Single Latest News -->
+                <div class="col-md-6 col-md-offset-0 col-sm-offset-1 col-sm-10">
+                        <div class="sin-latest-news last">
+                            <div class="latest-news-thumb">
+                                <img src="../static/images/recommend/recommend04.jpg" alt="">
+                            </div>
+                            <!-- /.End Of Latest News Thumb -->
+                            <div class="latest-news-content">
+                                <div class="news-text">
+                                    <a href=""><h4>花花世界</h4></a>
+                                    <a href="#" class="news-date">22 October, 2018</a>
+                                    <p style="line-height: 8px;">秋位甚浓,黄橙滋渴.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 <!-- /.End Of Single Latest News -->
             </div>
         </div>
@@ -703,11 +872,12 @@
             for(var i=0;i<num;i++){
                 index = i+1;
                 if(i==0){
+                    $('#orderWrap01').append('<div>未选:<button class="btn btn-default" disabled></button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;已选:<button class="btn btn-danger" disabled></button></div>');
                     $('#orderWrap01').append('<div style="text-align: left;margin-left: 11%;margin-bottom:5px;color: #5cb85c">入口<i class="fa fa-sign-in" aria-hidden="true"></i></div>');
                 }
                 var random = randomNum(1,10);
                 if(index%random==0){
-                    style = "btn btn-success";
+                    style = "btn btn-default";
                     flag = "";
                     Title = "当前座可选";
                 }else if(index%random==1){
@@ -761,6 +931,15 @@
                     $('#orderWrap01').append('<div style="text-align: right;margin-top:5px;margin-right: 10%;color: #ff3828">出口<i class="fa fa-sign-out" aria-hidden="true"></i></div>');
                 }
             }
+        }
+
+        function itemMore() {
+            swal({
+                title:"该功能将后续开放",
+                text:"敬请期待!",
+                type:"info",
+                showCancelButton:false
+            })
         }
 
         function alertInfo(obj) {
